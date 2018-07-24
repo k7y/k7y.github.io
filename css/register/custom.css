@@ -45,11 +45,10 @@
 .email > input, 
 .password > input {
 	border: 0;
-	width: 80%;
+	width: 90%;
 	height: 20px !important;
 	color: #848383;
 	font-size: 12px;
-	margin: 0 0 0 10px;
 	outline: none;
 }
 
