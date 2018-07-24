@@ -40,22 +40,17 @@
 	border-bottom: 1px solid #b9b7b763;
 }
 
-.name:after {
-	display:block;
-  content: '';
-	transform: scaleX(0); 
-}
-
 .name > input, 
 .username > input, 
 .email > input, 
 .password > input {
 	border: 0;
-	width: 85%;
+	width: 80%;
 	color: #848383;
 	font-size: 12px;
 	margin: 0 0 0 10px;
 	outline: none;
+	box-sizing : border-box;
 }
 
 .userDetails div > i {
