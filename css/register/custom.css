@@ -46,11 +46,11 @@
 .password > input {
 	border: 0;
 	width: 80%;
+	height: 25px !important;
 	color: #848383;
 	font-size: 12px;
 	margin: 0 0 0 10px;
 	outline: none;
-	box-sizing : border-box;
 }
 
 .userDetails div > i {
@@ -95,4 +95,3 @@
 .submit > button:focus {
 	outline: none;
 }
-
