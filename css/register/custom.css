@@ -46,7 +46,6 @@
 .password > input {
 	border: 0;
 	width: 80%;
-	height: 25px !important;
 	color: #848383;
 	font-size: 12px;
 	margin: 0 0 0 10px;
@@ -66,7 +65,6 @@
 	color: #32CCBC;
 	transition: color 0.5s ease;
 }
-
 
 .submit {
 	width: 50%;
