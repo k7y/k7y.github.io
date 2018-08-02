@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../k7y.github.io/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="../k7y.github.io/css/register/custom.css">
-    <link rel="stylesheet" href="../k7y.github.io/css/snackbar/custom.css">
 </head>
 
 <body>
@@ -27,17 +26,17 @@
 
             <div class="userDetails">
                 <div class="name">
-                    <input type="text" placeholder="full name">
+                    <input type="text" id="fullname" placeholder="full name">
                     <i class="far fa-user"></i>
                 </div>
 
                 <div class="username">
-                    <input type="text" placeholder="username">
+                    <input type="text" id="username" placeholder="username">
                     <i class="fas fa-user-ninja"></i>
                 </div>
 
                 <div class="email">
-                    <input type="email" placeholder="johndoe@gmail.com">
+                    <input type="email" id="email" placeholder="johndoe@gmail.com">
                     <i class="far fa-envelope"></i>
                 </div>
 
@@ -47,11 +46,13 @@
                 </div>
 
                 <div class="submit">
-                    <button onclick="myFunction()" id="signUp">Create Account</button>
+                    <button id="signUp">Create Account</button>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="../k7y.github.io/js/signUp.js"></script>
 </body>
 
 </html>
